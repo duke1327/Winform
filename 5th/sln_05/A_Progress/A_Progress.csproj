@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF8D3FD7-A6A6-4846-A74A-07AAB263C6B5}</ProjectGuid>
+    <ProjectGuid>{586D520B-52BF-4E1B-99F8-78C938818A33}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>A_Timer</RootNamespace>
-    <AssemblyName>A_Timer</AssemblyName>
+    <RootNamespace>A_Progress</RootNamespace>
+    <AssemblyName>A_Progress</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
