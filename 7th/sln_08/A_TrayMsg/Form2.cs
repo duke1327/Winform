@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace A_TrayMsg
 {
+    
     public partial class Form2 : Form
     {
         public Form2()
@@ -73,7 +74,7 @@ namespace A_TrayMsg
 
         private void OnPopUp(object sender, ElapsedEventArgs e)
         {
-            if (Height < 1200) 
+            if (Height < 120) 
             {
                 Invoke(OnHeight, 0); 
             }
@@ -81,7 +82,7 @@ namespace A_TrayMsg
             {
                 TimerEvent.Stop(); TimerEvent.Elapsed -= new ElapsedEventHandler(OnPopUp);
                 TimerEvent.Elapsed += new ElapsedEventHandler(OnPopOut);
-                TimerEvent.Interval = 3000; TimerEvent.Start();
+                TimerEvent.Interval = 10000; TimerEvent.Start();
             }
             Application.DoEvents();
         }
