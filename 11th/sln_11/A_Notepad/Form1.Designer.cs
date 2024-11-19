@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuBar = new System.Windows.Forms.MenuStrip();
             this.파일FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.새로만들기NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -271,6 +272,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtNote);
             this.Controls.Add(this.menuBar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuBar;
             this.Name = "Form1";
             this.Text = "제목 없음";
